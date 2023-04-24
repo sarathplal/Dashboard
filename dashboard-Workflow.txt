@@ -1,0 +1,31 @@
+
+
+1.create Project- ng new project-Name
+2.Run project -
+3.Install or import 3rd party libraries to complete the project
+        a.Install Angular material  : ng add @angular/material
+                -choose PreBuild theme (choose any one of 'em)
+                -enable Topology
+                -enable animation
+            note:- to use any components we have to copy the API for that particular component and paste it in appmodule.ts File
+4.Delete all contents in Appcomponent html file
+5.Check 3rd party libraries working in project or not
+6.Create components  
+     a.header
+     b.footer
+     c.sidebar
+     d.dash board
+7.Design components
+8.set up path for components and upadate
+        a.header
+        b.footer
+        c.sidebar
+        d.dash board
+
+9.To add chart: use high charts angular
+      a. by using command: npm install highcharts-angular --save
+      b. importing to appmodule.ts : import { HighchartsChartModule } from 'highcharts-angular';
+      c.Install High charts using  : npm install highcharts --save
+      d.import high charts to the components where it is being used
+
+10.

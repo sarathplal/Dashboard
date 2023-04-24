@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'adminProject';
+  sidebarOpened:boolean=true
+  toggle(){
+    this.sidebarOpened=!this.sidebarOpened
+  }
 }

@@ -1,0 +1,44 @@
+.profile {
+    text-align: center;
+}
+.profile img{
+ width: 100px;
+ object-fit: contain;
+}
+.profile h3{
+    font-weight: 800;
+    line-height: 0.75rem;
+}
+.profile h5{
+font-weight: 500;
+}
+h2{
+    font-size: medium;
+    padding-left: 10px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: rgb(169, 169, 169,0.3);
+}
+.pages{
+display: flex;
+flex-direction: column;
+padding:10px 0 0 10px;
+line-height: 2rem;
+}
+.tools{
+    display: flex;
+    flex-direction: column;
+    padding:10px 0 0 10px;
+    line-height: 2rem;  
+}
+mat-icon{
+    color: blue;
+    vertical-align: middle;
+    margin-right: 7px;
+}

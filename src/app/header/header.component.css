@@ -1,0 +1,9 @@
+.flex-Conatiner{
+    width: 100vw;
+}
+.flex-Conatiner ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
